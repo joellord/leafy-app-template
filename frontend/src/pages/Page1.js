@@ -1,7 +1,9 @@
 import React from "react";
 
-export default function Page1 () {
+export default function Home () {
   return  (
-    <React.Fragment>This is Page 1</React.Fragment>
+    <React.Fragment>
+      This is a protected page. If you see this, you are authenticated.
+    </React.Fragment>
   )
 }
